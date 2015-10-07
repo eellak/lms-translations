@@ -182,9 +182,9 @@ $string['modulename'] = 'BigBlueButtonBN';
 $string['modulenameplural'] = 'BigBlueButtonBN';
 $string['modulename_help'] = 'BigBlueButtonBN σας επιτρέπει να δημιουργήσετε μέσα από το Moodle συνδέσμους σε πραγματικό χρόνο on-line αίθουσες διδασκαλίας με τη χρήση BigBlueButton, ένα σύστημα το web conferencing ανοικτού κώδικα για την εξ αποστάσεως εκπαίδευση.';
 
-$string['Using BigBlueButtonBN you can specify for the title, description, calendar entry (which gives a date range for joining the session), groups, and details about the recording of the on-line session.';
+$string['Using BigBlueButtonBN you can specify for the title, description, calendar entry (which gives a date range for joining the session), groups, and details about the recording of the on-line session.'] = '';
 
-$string['To view later recordings, add a RecordingsBN resource to this course.';
+$string['To view later recordings, add a RecordingsBN resource to this course.'] = '';
 $string['modulename_link'] = 'BigBlueButtonBN / προβολή';
 $string['pluginadministration'] = 'Διοίκηση BigBlueButton';
 $string['pluginname'] = 'BigBlueButtonBN';

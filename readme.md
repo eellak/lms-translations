@@ -48,4 +48,4 @@ The respective resource is bigbluebuttonbn.php
 The respective resource is recordingsbn.php
 
 <a name="credits"></a> 
-This tranlation effort has been undertaken as part of <a href="https://ellak.gr/" target="_blank">ELLAK</a> projects.
+This tranlation effort has been undertaken by the <a href="https://ellak.gr/" target="_blank">ELLAK</a> community.

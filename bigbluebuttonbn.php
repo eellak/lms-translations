@@ -24,33 +24,40 @@ $string['config_general'] = 'Γενική διαμόρφωση';
 $string['config_general_description'] = 'Αυτές οι ρυθμίσεις πρέπει <b> πάντα </ b> χρησιμοποιούνται';
 $string['config_server_url'] = 'URL διακομιστή BigBlueButton';
 $string['config_server_url_description'] = 'Η διεύθυνση URL του διακομιστή BigBlueButton πρέπει να τελειώνει με το /bigbluebutton/. (H προεπιλεγμένη διεύθυνση URL είναι για ένα διακομιστή BigBlueButton που παρέχεται από την Blindside Networks και μπορείτε να χρησιμοποιήσετε για δοκιμή.)';
-$string['config_shared_secret'] = 'BigBlueButton κοινό μυστικό';
-$string['config_shared_secret_description'] = 'Το κλειδί ασφάλειας του διακομιστή σας BigBlueButton. (Αυτό το προεπιλεγμένο κλειδί είναι για ένα διακομιστή BigBlueButton που παρέχεται από την Blindside Networks και μπορείτε να χρησιμοποιήσετε για δοκιμή.)';
+$string['config_shared_secret'] = 'BigBlueButton διαμοιρασμένο κλειδί ασφαλείας';
+$string['config_shared_secret_description'] = 'Το κλειδί ασφάλειας του διακομιστή σας BigBlueButton. (Το προεπιλεγμένο κλειδί είναι για ένα διακομιστή BigBlueButton που παρέχεται από την Blindside Networks και μπορείτε να χρησιμοποιήσετε για δοκιμή.)';
 
 
-$string['config_feature_recording'] = '"Ρύθμιση για ""Εγγραφή"" χαρακτηριστικό"';
-$string['config_feature_recording_description'] = 'Αυτές οι ρυθμίσεις είναι χαρακτηριστικό συγκεκριμένων';
-$string['config_feature_recording_default'] = 'Εγγραφή χαρακτηριστικό ενεργοποιημένη από προεπιλογή';
-$string['config_feature_recording_default_description'] = 'Εάν είναι ενεργοποιημένο τις συνεδρίες που δημιουργήθηκε το BigBlueButton θα έχει δυνατότητες εγγραφής.';
-$string['config_feature_recording_editable'] = 'Εγγραφή χαρακτηριστικό μπορεί να επεξεργαστεί';
+$string['config_feature_recording'] = 'Ρύθμιση για την λειτουργία Εγγραφής';
+$string['config_feature_recording_description'] = 'Αυτές οι ρυθμίσεις αφορούν την λειτουργία εγγραφής';
+$string['config_feature_recording_default'] = 'Προεπιλογή Λειτουργίας Εγγραφής';
+$string['config_feature_recording_default_description'] = 'Εάν είναι ενεργοποιημένο στις συνεδρίες που δημιουργούνται το BigBlueButton θα έχει δυνατότητα εγγραφής.';
+$string['config_feature_recording_editable'] = 'Η Λειτουργία Εγγραφής μπορεί να επεξεργαστεί';
 $string['config_feature_recording_editable_description'] = 'Αν ελεγχθεί η διεπαφή περιλαμβάνει μια επιλογή για να ενεργοποιήσετε και να απενεργοποιήσετε τη λειτουργία εγγραφής.';
 
 
-$string['config_feature_recordingtagging'] = '"Ρύθμιση για ""Εγγραφή σήμανση"" χαρακτηριστικό"';
-$string['config_feature_recordingtagging_description'] = 'Αυτές οι ρυθμίσεις είναι χαρακτηριστικό συγκεκριμένων';
-$string['config_feature_recordingtagging_default'] = 'Εγγραφή tagging ενεργοποιημένο από προεπιλογή';
-$string['config_feature_recordingtagging_default_description'] = 'Εγγραφή χαρακτηριστικό tagging είναι ενεργοποιημένη από προεπιλογή όταν προστίθεται μια νέα αίθουσα συνεδρίων ή. <br> Όταν αυτή η λειτουργία είναι ενεργοποιημένη μια ενδιάμεση σελίδα που σας επιτρέπει να εισάγετε μια περιγραφή και ετικέτες για τη σύνοδο BigBlueButton εμφανίζεται στην πρώτη συντονιστής ενώνει. Η περιγραφή και ετικέτες στη συνέχεια χρησιμοποιείται για να προσδιορίσει την εγγραφή στον κατάλογο.';
-$string['config_feature_recordingtagging_editable'] = 'Εγγραφή χαρακτηριστικό tagging μπορούν να επεξεργαστούν';
-$string['config_feature_recordingtagging_editable_description'] = 'Εγγραφή αξία ετικέτες από προεπιλογή, είναι δυνατή η επεξεργασία, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
-$string['config_feature_recording_icons_enabled'] = 'Εικόνες για τη διαχείριση εγγραφή';
-$string['config_feature_recording_icons_enabled_description'] = 'Όταν είναι ενεργοποιημένη, ο πίνακας διαχείρισης εγγραφής εμφανίζει εικονίδια για τις δημοσιεύει / αποδημοσίευση και να διαγράψετε ενέργειες.';
+$string['config_feature_recordingtagging'] = 'Ρύθμιση για λειτουργία tagging εγγραφής';
+$string['config_feature_recordingtagging_description'] = 'Αυτές οι ρυθμίσεις αφορούν την λειτουργία tagging εγγραφής';
+$string['config_feature_recordingtagging_default'] = 'Προεπιλογή tagging Εγγραφής ';
 
 
-$string['config_feature_waitformoderator'] = '"Διαμόρφωση για ""Περιμένετε συντονιστής"" χαρακτηριστικό"';
-$string['config_feature_waitformoderator_description'] = 'Αυτές οι ρυθμίσεις είναι χαρακτηριστικό συγκεκριμένων';
-$string['config_feature_waitformoderator_default'] = 'Περιμένετε συντονιστής ενεργοποιημένο από προεπιλογή';
-$string['config_feature_waitformoderator_default_description'] = 'Περιμένετε για τη λειτουργία συντονιστής είναι ενεργοποιημένη από προεπιλογή όταν προστίθεται μια νέα αίθουσα συνεδρίων ή.';
-$string['config_feature_waitformoderator_editable'] = 'Περιμένετε για τη λειτουργία μεσολαβητή μπορούν να επεξεργαστούν';
+$string['config_feature_recordingtagging_default_description'] = 'Η λειτουργία tagging Εγγραφής είναι ενεργοποιημένη από προεπιλογή όταν προστίθεται μια νέα αίθουσα συνεδρίων.  <br> Όταν αυτή η λειτουργία είναι ενεργοποιημένη μια ενδιάμεση σελίδα σας επιτρέπει να εισάγετε μια περιγραφή και ετικέτες για τη σύνοδο BigBlueButton και εμφανίζεται στην πρώτη οθόνη του διαχειριστή. Η περιγραφή και οι ετικέτες στη συνέχεια χρησιμοποιούνται για να βρεθεί η εγγραφή στον κατάλογο.';
+$string['config_feature_recordingtagging_editable'] = 'Διαχείριση Λειτουργίας tagging Εγγραφής';
+$string['config_feature_recordingtagging_editable_description'] = 'Από προεπιλογή η λειτουργία tagging εγγραφής είναι επεξεργάσιμη, όταν η αίθουσα συνεδρίων ή προστίθεται ή  ενημερώνεται.';
+$string['config_feature_recording_icons_enabled'] = 'Εικόνες για τη διαχείριση εγγραφής';
+$string['config_feature_recording_icons_enabled_description'] = 'Όταν είναι ενεργοποιημένη, ο πίνακας διαχείρισης εγγραφής εμφανίζει εικονίδια για τις ενέργειες δημοσίευσης / απόσυρσης και να διαγραφής.';
+
+
+$string['config_feature_waitformoderator'] = 'Διαχείριση λειτουργίας "Περιμένετε τον συντονιστή" ';
+$string['config_feature_waitformoderator_description'] = 'Αυτές οι ρυθμίσεις είναι για τη συγκεκριμένη λειτουργία';
+$string['config_feature_waitformoderator_default'] = 'Η λειτουργία Περιμένετε τον συντονιστή είναι ενεργοποιημένο από προεπιλογή';
+$string['config_feature_waitformoderator_default_description'] = 'Η λειτουργία περιμένετε τον συντονιστή είναι ενεργοποιημένη από προεπιλογή όταν προστίθεται μια νέα αίθουσα ή μια νέα σύσκεψη.';
+
+
+$string['config_feature_waitformoderator_editable'] = 'H λειτουργία "Περιμένετε τον συντονιστή" μπορεί να επεξεργαστούν';
+
+/* fix progress */
+
 $string['config_feature_waitformoderator_editable_description'] = 'Περιμένετε για την αξία μεσολαβητή εξ ορισμού μπορούν να επεξεργαστούν, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
 $string['config_feature_waitformoderator_ping_interval'] = 'Περιμένετε συντονιστής ping (δευτερόλεπτα)';
 $string['config_feature_waitformoderator_ping_interval_description'] = 'Όταν η αναμονή για τη λειτουργία συντονιστής είναι ενεργοποιημένη, τα pings πελάτη για την κατάσταση της συνόδου καθένα [αριθμός] δευτερόλεπτα. Αυτή η παράμετρος καθορίζει το χρονικό διάστημα για αιτήσεις που υποβάλλονται στο διακομιστή του Moodle';

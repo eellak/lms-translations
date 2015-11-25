@@ -12,161 +12,129 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['bbbduetimeoverstartingtime'] = 'Η ώρα λήξης πρέπει να είναι μετά από την ώρα έναρξης';
 $string['bbbdurationwarning'] = 'Η μέγιστη διάρκεια αυτής της συνόδου είναι %duration% λεπτά.';
-$string['bbbrecordwarning'] = 'Αυτή η συνεδρία μπορεί να καταγραφεί.';
+$string['bbbrecordwarning'] = 'Αυτή η συνεδρία μπορεί να καταγραφεί.'; 
 $string['bigbluebuttonbn:join'] = 'Συμμετοχή σε σύσκεψη';
 $string['bigbluebuttonbn:moderate'] = 'Διαχείριση μιας συνάντησης';
 $string['bigbluebuttonbn:managerecordings'] = 'Διαχείριση των ηχογραφήσεων';
 $string['bigbluebuttonbn:addinstance'] = 'Προσθέστε μια νέα συνάντηση';
 $string['bigbluebuttonbn'] = 'BigBlueButton';
-
-
 $string['config_general'] = 'Γενική διαμόρφωση';
 $string['config_general_description'] = 'Αυτές οι ρυθμίσεις πρέπει <b> πάντα </ b> χρησιμοποιούνται';
 $string['config_server_url'] = 'URL διακομιστή BigBlueButton';
 $string['config_server_url_description'] = 'Η διεύθυνση URL του διακομιστή BigBlueButton πρέπει να τελειώνει με το /bigbluebutton/. (H προεπιλεγμένη διεύθυνση URL είναι για ένα διακομιστή BigBlueButton που παρέχεται από την Blindside Networks και μπορείτε να χρησιμοποιήσετε για δοκιμή.)';
 $string['config_shared_secret'] = 'BigBlueButton διαμοιρασμένο κλειδί ασφαλείας';
 $string['config_shared_secret_description'] = 'Το κλειδί ασφάλειας του διακομιστή σας BigBlueButton. (Το προεπιλεγμένο κλειδί είναι για ένα διακομιστή BigBlueButton που παρέχεται από την Blindside Networks και μπορείτε να χρησιμοποιήσετε για δοκιμή.)';
-
-
 $string['config_feature_recording'] = 'Ρύθμιση για την λειτουργία Εγγραφής';
 $string['config_feature_recording_description'] = 'Αυτές οι ρυθμίσεις αφορούν την λειτουργία εγγραφής';
 $string['config_feature_recording_default'] = 'Προεπιλογή Λειτουργίας Εγγραφής';
 $string['config_feature_recording_default_description'] = 'Εάν είναι ενεργοποιημένο στις συνεδρίες που δημιουργούνται το BigBlueButton θα έχει δυνατότητα εγγραφής.';
 $string['config_feature_recording_editable'] = 'Η Λειτουργία Εγγραφής μπορεί να επεξεργαστεί';
 $string['config_feature_recording_editable_description'] = 'Αν ελεγχθεί η διεπαφή περιλαμβάνει μια επιλογή για να ενεργοποιήσετε και να απενεργοποιήσετε τη λειτουργία εγγραφής.';
-
-
 $string['config_feature_recordingtagging'] = 'Ρύθμιση για λειτουργία tagging εγγραφής';
 $string['config_feature_recordingtagging_description'] = 'Αυτές οι ρυθμίσεις αφορούν την λειτουργία tagging εγγραφής';
 $string['config_feature_recordingtagging_default'] = 'Προεπιλογή tagging Εγγραφής ';
-
-
 $string['config_feature_recordingtagging_default_description'] = 'Η λειτουργία tagging Εγγραφής είναι ενεργοποιημένη από προεπιλογή όταν προστίθεται μια νέα αίθουσα συνεδρίων.  <br> Όταν αυτή η λειτουργία είναι ενεργοποιημένη μια ενδιάμεση σελίδα σας επιτρέπει να εισάγετε μια περιγραφή και ετικέτες για τη σύνοδο BigBlueButton και εμφανίζεται στην πρώτη οθόνη του διαχειριστή. Η περιγραφή και οι ετικέτες στη συνέχεια χρησιμοποιούνται για να βρεθεί η εγγραφή στον κατάλογο.';
 $string['config_feature_recordingtagging_editable'] = 'Διαχείριση Λειτουργίας tagging Εγγραφής';
 $string['config_feature_recordingtagging_editable_description'] = 'Από προεπιλογή η λειτουργία tagging εγγραφής είναι επεξεργάσιμη, όταν η αίθουσα συνεδρίων ή προστίθεται ή  ενημερώνεται.';
 $string['config_feature_recording_icons_enabled'] = 'Εικόνες για τη διαχείριση εγγραφής';
 $string['config_feature_recording_icons_enabled_description'] = 'Όταν είναι ενεργοποιημένη, ο πίνακας διαχείρισης εγγραφής εμφανίζει εικονίδια για τις ενέργειες δημοσίευσης / απόσυρσης και να διαγραφής.';
-
-
-$string['config_feature_waitformoderator'] = 'Διαχείριση λειτουργίας "Περιμένετε τον συντονιστή" ';
+$string['config_feature_waitformoderator'] = 'Διαχείριση λειτουργίας ""Περιμένετε τον συντονιστή"" ';
 $string['config_feature_waitformoderator_description'] = 'Αυτές οι ρυθμίσεις είναι για τη συγκεκριμένη λειτουργία';
 $string['config_feature_waitformoderator_default'] = 'Η λειτουργία Περιμένετε τον συντονιστή είναι ενεργοποιημένο από προεπιλογή';
 $string['config_feature_waitformoderator_default_description'] = 'Η λειτουργία περιμένετε τον συντονιστή είναι ενεργοποιημένη από προεπιλογή όταν προστίθεται μια νέα αίθουσα ή μια νέα σύσκεψη.';
+$string['config_feature_waitformoderator_editable'] = 'H λειτουργία ""Περιμένετε τον συντονιστή"" μπορεί να επεξεργαστεί';
+/* fix progress */;;
+$string['config_feature_waitformoderator_editable_description'] = 'Περιμένετε για την αξία μεσολαβητή από προεπιλογή μπορεί να επεξεργαστεί, όταν η αίθουσα ή η διάσκεψη προστίθεται ή ενημερώνεται.';
+$string['config_feature_waitformoderator_ping_interval'] = 'Περιμένετε για τον συντονιστή ping (δευτερόλεπτα)';
+$string['config_feature_waitformoderator_ping_interval_description'] = 'Όταν η λειτουργία αναμονή για το συντονιστή είναι ενεργοποιημένη, τα pings του πελάτη για την κατάσταση της συνεδρίας κάθε [αριθμός] δευτερόλεπτα. Αυτή η παράμετρος καθορίζει το χρονικό διάστημα για αιτήσεις που υποβάλλονται στο διακομιστή του Moodle';
+$string['config_feature_waitformoderator_cache_ttl'] = 'Περιμένετε για τον συντονιστή cache TTL  (δευτερόλεπτα)';
+$string['config_feature_waitformoderator_cache_ttl_description'] = 'Για να υποστηρίξει ένα βαρύ φορτίο πελατών αυτό το plugin κάνει χρήση cache. Αυτή η παράμετρος καθορίζει το χρονικό διάστημα που θα τηρείται το cache πριν η επόμενη αίτηση αποστέλλεται στο διακομιστή BigBlueButton.';
 
-
-$string['config_feature_waitformoderator_editable'] = 'H λειτουργία "Περιμένετε τον συντονιστή" μπορεί να επεξεργαστούν';
-
-/* fix progress */
-
-$string['config_feature_waitformoderator_editable_description'] = 'Περιμένετε για την αξία μεσολαβητή εξ ορισμού μπορούν να επεξεργαστούν, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
-$string['config_feature_waitformoderator_ping_interval'] = 'Περιμένετε συντονιστής ping (δευτερόλεπτα)';
-$string['config_feature_waitformoderator_ping_interval_description'] = 'Όταν η αναμονή για τη λειτουργία συντονιστής είναι ενεργοποιημένη, τα pings πελάτη για την κατάσταση της συνόδου καθένα [αριθμός] δευτερόλεπτα. Αυτή η παράμετρος καθορίζει το χρονικό διάστημα για αιτήσεις που υποβάλλονται στο διακομιστή του Moodle';
-$string['config_feature_waitformoderator_cache_ttl'] = 'Περιμένετε συντονιστής της προσωρινής μνήμης TTL (δευτερόλεπτα)';
-$string['config_feature_waitformoderator_cache_ttl_description'] = 'Για να υποστηρίξει ένα βαρύ φορτίο των πελατών αυτό το plugin κάνει χρήση της κρυφής μνήμης. Αυτή η παράμετρος καθορίζει το χρονικό διάστημα από την κρυφή μνήμη θα πρέπει να τηρούνται πριν από την επόμενη αίτηση αποστέλλεται στο διακομιστή BigBlueButton.';
-
-
-$string['config_feature_voicebridge'] = '"Διαμόρφωση για ""Φωνή γέφυρα"" χαρακτηριστικό"';
-$string['config_feature_voicebridge_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιήσετε ή να απενεργοποιήσετε τις επιλογές στο περιβάλλον εργασίας και επίσης να καθορίσουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
-$string['config_feature_voicebridge_editable'] = 'Φωνής Διάσκεψη γέφυρα μπορεί να επεξεργαστεί';
-$string['config_feature_voicebridge_editable_description'] = 'Διάσκεψη φωνή αριθμός γέφυρα μπορεί να χρησιμοποιείται διαρκώς σε μια αίθουσα συνεδριάσεων. Όταν αποδίδεται, ο αριθμός δεν μπορεί να χρησιμοποιηθεί από οποιοδήποτε άλλο δωμάτιο ή συνεδρίων';
-
-
-$string['config_feature_preuploadpresentation'] = '"Διαμόρφωση για ""Pre-Ανεβάστε παρουσίαση"" χαρακτηριστικό"';
-$string['config_feature_preuploadpresentation_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιήσετε ή να απενεργοποιήσετε τις επιλογές στο περιβάλλον εργασίας και επίσης να καθορίσουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
-$string['config_feature_preuploadpresentation_enabled'] = 'Επέτρεψε την παρουσίαση προ-φόρτωση';
-$string['config_feature_preuploadpresentation_enabled_description'] = 'Preupload δυνατότητα παρουσίασης είναι ενεργοποιημένη στο UI, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
-
-
-$string['config_permission'] = 'Διαμόρφωση Άδεια';
-$string['config_permission_description'] = 'Οι ρυθμίσεις αυτές καθορίζουν τα δικαιώματα από προεπιλογή για τα δωμάτια ή συνέδριο που δημιουργούνται.';
+$string['config_feature_voicebridge'] = 'Διαμόρφωση για χαρακτηριστικό ""Φωνητική γέφυρα""';
+$string['config_feature_voicebridge_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιούν ή απενεργοποιούν τις επιλογές στο γραφικό περιβάλλον και επίσης καθορίζουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
+$string['config_feature_voicebridge_editable'] = 'Διάσκεψη φωνητικής γέφυρας μπορεί να επεξεργαστεί';
+$string['config_feature_voicebridge_editable_description'] = 'Το νούμερο διάσκεψης φωνητικής γέφυρας μπορεί να καταχωρηθεί μόνιμα σε μια αίθουσα συνεδριάσεων. Όταν καταχωρείται, ο αριθμός δεν μπορεί να χρησιμοποιηθεί από οποιοδήποτε άλλη αίθουσα ή διάσκεψη';
+$string['config_feature_preuploadpresentation'] = 'Διαμόρφωση για χαρακτηριστικό ""Pre-upload  παρουσίαση""';
+$string['config_feature_preuploadpresentation_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιούν ή απενεργοποιούν τις επιλογές στο γραφικό περιβάλλον και επίσης καθορίζουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
+$string['config_feature_preuploadpresentation_enabled'] = 'Επέτρεψε την παρουσίαση Pre-uploading';
+$string['config_feature_preuploadpresentation_enabled_description'] = 'Το χαρακτηριστικό Preupload παρουσίαση είναι ενεργοποιημένο στο γραφικό περιβάλλον, όταν η αίθουσα ή η διάσκεψη προστίθεται ή ενημερώνεται.';
+$string['config_permission'] = 'Διαμόρφωση Άδειας';
+$string['config_permission_description'] = 'Οι ρυθμίσεις αυτές καθορίζουν τα δικαιώματα που δημιουργούνται από προεπιλογή για τις αίθουσες ή τη διάσκεψη.';
 $string['config_permission_moderator_default'] = 'Συντονιστής από προεπιλογή';
-$string['config_permission_moderator_default_description'] = 'Ο κανόνας αυτός χρησιμοποιείται από προεπιλογή όταν προστίθεται μια νέα αίθουσα συνεδρίων ή.';
-
-
-$string['config_feature_predefinedprofile'] = 'Προκαθορισμένη διαμόρφωση προφίλ';
+$string['config_permission_moderator_default_description'] = 'Ο κανόνας αυτός χρησιμοποιείται από προεπιλογή όταν προστίθεται μια νέα αίθουσα ή διάσκεψη.';
+$string['config_feature_predefinedprofile'] = 'Διαμόρφωση προκαθορισμένου προφίλ';
 $string['config_feature_predefinedprofile_description'] = 'Οι ρυθμίσεις αυτές καθορίζουν τα προκαθορισμένα προφίλ που χρησιμοποιούνται για την απλοποίηση της UI για τη δημιουργία δραστηριοτήτων BigBluebuttonBN.';
-$string['config_feature_predefinedprofile_enabled'] = 'Προκαθορισμένες προφίλ ενεργοποιημένη';
-$string['config_feature_predefinedprofile_enabled_description'] = 'Προκαθορισμένες χαρακτηριστικό προφίλ είναι ενεργοποιημένη στο UI, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
-
-
-$string['config_feature_userlimit'] = '"Διαμόρφωση για ""όριο χρήσης"" χαρακτηριστικό"';
-$string['config_feature_userlimit_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιήσετε ή να απενεργοποιήσετε τις επιλογές στο περιβάλλον εργασίας και επίσης να καθορίσουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
-$string['config_feature_userlimit_default'] = 'Το όριο χρηστών ενεργοποιημένο από προεπιλογή';
-$string['config_feature_userlimit_default_description'] = 'Ο αριθμός των χρηστών που επιτρέπεται σε μια συνεδρία από προεπιλογή όταν προστίθεται μια νέα αίθουσα συνεδρίων ή. Εάν ο αριθμός έχει οριστεί σε 0, που δεν έχει καταρτιστεί όριο';
-$string['config_feature_userlimit_editable'] = 'Το όριο χρηστών χαρακτηριστικό μπορεί να επεξεργαστεί';
-$string['config_feature_userlimit_editable_description'] = 'Χρήστης οριακή τιμή εξ ορισμού μπορούν να επεξεργαστούν, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
-
-
-$string['config_scheduled'] = '"Διαμόρφωση για ""Προγραμματισμένες συναντήσεις"""';
-$string['config_scheduled_description'] = 'Οι ρυθμίσεις αυτές ορίζουν ένα μέρος της συμπεριφοράς από προεπιλογή για τις τακτικές συνεδρίες.';
-$string['config_scheduled_duration_enabled'] = 'Υπολογίστε τη διάρκεια ενεργοποιημένη';
-$string['config_scheduled_duration_enabled_description'] = 'Η διάρκεια της προγραμματισμένης ημερομηνίας συνεδρίασης υπολογίζεται με βάση τις άνοιγμα και το κλείσιμο φορές.';
-$string['config_scheduled_duration_compensation'] = 'Αντισταθμιστικά χρόνο (λεπτά)';
-$string['config_scheduled_duration_compensation_description'] = 'Πρακτικά προστίθεται στο προγραμματισμένο κλείσιμο κατά τον υπολογισμό της διάρκειας.';
-$string['config_scheduled_pre_opening'] = 'Προσβάσιμο πριν από το άνοιγμα του χρόνου (λεπτά)';
-$string['config_scheduled_pre_opening_description'] = 'Ο χρόνος σε λεπτά για τη σύνοδο να acceessible πριν τα χρονοδιαγράμματα άνοιγμα οφείλεται.';
-
-
-$string['config_feature_sendnotifications'] = '"Ρύθμιση για «Αποστολή ειδοποιήσεων"" χαρακτηριστικό"';
-$string['config_feature_sendnotifications_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιήσετε ή να απενεργοποιήσετε τις επιλογές στο περιβάλλον εργασίας και επίσης να καθορίσουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
-$string['config_feature_sendnotifications_enabled'] = 'Αποστολή ειδοποιήσεων ενεργοποιημένη';
+$string['config_feature_predefinedprofile_enabled'] = 'Ενεργοποίηση προκαθορισμένου προφίλ ';
+$string['config_feature_predefinedprofile_enabled_description'] = 'Το χαρακτηριστικό προκαθορισμένου προφίλ έχει ενεργοποιηθεί στο UI, όταν η αίθουσα ή η διάσκεψη προστίθεται ή ενημερώνεται.';
+$string['config_feature_userlimit'] = 'Διαμόρφωση για χαρακτηριστικό ""όριο χρήστη""';
+$string['config_feature_userlimit_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιούν ή απενεργοποιούν τις επιλογές στο γραφικό περιβάλλον και επίσης καθορίζουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές.';
+$string['config_feature_userlimit_default'] = 'Το όριο χρήστη είναι ενεργοποιημένο από προεπιλογή';
+$string['config_feature_userlimit_default_description'] = 'Ο αριθμός των χρηστών που επιτρέπεται σε μια συνεδρία από προεπιλογή όταν προστίθεται μια νέα αίθουσα ή διάσκεψη. Εάν ο αριθμός έχει οριστεί σε 0, δεν έχει καταρτιστεί όριο';
+$string['config_feature_userlimit_editable'] = 'Το χαρακτηριστικό όριο χρήστη μπορεί να επεξεργαστεί';
+$string['config_feature_userlimit_editable_description'] = 'Η τιμή όριο χρήστη  μπορεί να επεξεργαστεί από προεπιλογή, όταν η αίθουσα ή η διάσκεψη  προστίθεται ή ενημερώνεται.';
+$string['config_scheduled'] = 'Διαμόρφωση για ""Προγραμματισμένες συνεδρίες""';
+$string['config_scheduled_description'] = 'Οι ρυθμίσεις αυτές ορίζουν από προεπιλογή  κάποια από τη συμπεριφορά για τις προγραμματισμένες συνεδρίες.';
+$string['config_scheduled_duration_enabled'] = 'Ενεργοποίηση Υπολογισμός διάρκειας';
+$string['config_scheduled_duration_enabled_description'] = 'Η διάρκεια μιας προγραμματισμένηςσυνεδρίασης υπολογίζεται με βάση τις φορές ανοίγματος και κλεισίματος.';
+$string['config_scheduled_duration_compensation'] = 'Αντισταθμιστικός χρόνος (λεπτά)';
+$string['config_scheduled_duration_compensation_description'] = 'Λεπτά προστίθενται στο προγραμματισμένο κλείσιμο κατά τον υπολογισμό της διάρκειας.';
+$string['config_scheduled_pre_opening'] = 'Προσβάσιμο πριν από το χρόνο ανοίγματος (λεπτά)';
+$string['config_scheduled_pre_opening_description'] = 'Ο χρόνος σε λεπτά για τη συνεδρία να είναι προσβάσιμη πριν την ώρα που αναμένονται τα ανοίγματα των προγραμμάτων .';
+$string['config_feature_sendnotifications'] = 'Ρύθμιση για το χαρακτηριστικό ""Αποστολή ειδοποιήσεων""';
+$string['config_feature_sendnotifications_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιούν ή απενεργοποιούν τις επιλογές στο γραφικό περιβάλλον και επίσης καθορίζουν τις προεπιλεγμένες τιμές για αυτές τις επιλογές .';
+$string['config_feature_sendnotifications_enabled'] = 'Ενεργοποίηση Αποστολής ειδοποιήσεων';
 $string['config_feature_sendnotifications_enabled_description'] = 'Αποστολή ειδοποιήσεων είναι ενεργοποιημένη η δυνατότητα στο UI, όταν η αίθουσα συνεδρίων ή προστίθεται ή να ενημερωθούν.';
-
-
 $string['config_extended_capabilities'] = 'Διαμόρφωση για περισσότερες δυνατότητες';
 $string['config_extended_capabilities_description'] = 'Διαμόρφωση για περισσότερες δυνατότητες όταν ο διακομιστής BigBlueButton τους προσφέρει.';
-$string['config_extended_feature_uidelegation_enabled'] = 'Αντιπροσωπεία του UI είναι ενεργοποιημένη';
-$string['config_extended_feature_uidelegation_enabled_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιήσετε ή να απενεργοποιήσετε την αντιπροσωπεία UI στο διακομιστή BigBlueButton.';
-
-
-$string['general_error_unable_connect'] = 'Αδυναμία Σύνδεσης. Παρακαλώ ελέγξτε τη διεύθυνση URL του διακομιστή BigBlueButton και ελέγξτε για να δείτε αν ο διακομιστής BigBlueButton τρέχει.';
-
-$string['index_confirm_end'] = '"Θέλετε να τερματίσετε την εικονική τάξη;"';
-$string['index_disabled'] = 'άτομα με ειδικές ανάγκες';
-$string['index_enabled'] = 'ενεργοποιημένη';
-$string['index_ending'] = 'Τερματισμός της εικονική αίθουσα διδασκαλίας ... παρακαλώ περιμένετε';
-$string['index_error_checksum'] = 'Ένα σφάλμα αθροίσματος ελέγχου συνέβη. Βεβαιωθείτε ότι έχετε εισάγει το σωστό αλάτι.';
-$string['index_error_forciblyended'] = 'Ανίκανος να συμμετάσχετε σε αυτήν την συνάντηση, επειδή έχει διακοπεί χειροκίνητα.';
-$string['index_error_unable_display'] = 'Δεν είναι δυνατή η εμφάνιση των συνεδριάσεων. Παρακαλώ ελέγξτε τη διεύθυνση URL του διακομιστή BigBlueButton και ελέγξτε για να δείτε αν ο διακομιστής BigBlueButton τρέχει.';
-$string['index_heading_actions'] = 'Δράσεις';
+$string['config_extended_feature_uidelegation_enabled'] = 'Η αντιπροσωπεία του UI είναι ενεργοποιημένη';
+$string['config_extended_feature_uidelegation_enabled_description'] = 'Αυτές οι ρυθμίσεις ενεργοποιούν ή απενεργοποιούν την αντιπροσωπεία UI στο διακομιστή BigBlueButton.';
+$string['general_error_unable_connect'] = 'Αδυναμία Σύνδεσης. Παρακαλώ ελέγξτε τη διεύθυνση URL του διακομιστή BigBlueButton ΚΑΙ ελέγξτε για να δείτε αν ο διακομιστής BigBlueButton τρέχει.';
+$string['index_confirm_end'] = 'Επιθυμείτε να τερματίσετε την εικονική τάξη;""';
+$string['index_disabled'] = 'Απενεργοποίηση';
+$string['index_enabled'] = 'Ενεργοποίηση';
+$string['index_ending'] = 'Τερματισμός της εικονικής αίθουσας διδασκαλίας ... παρακαλώ περιμένετε';
+$string['index_error_checksum'] = 'Ένα σφάλμα ελέγχου αθροίσματος συνέβη. Βεβαιωθείτε ότι έχετε εισάγει το σωστό salt.';
+$string['index_error_forciblyended'] = 'Δεν είναι δυνατή η συμμετοχή σε αυτήν την συνάντηση, επειδή έχει διακοπεί χειροκίνητα.';
+$string['index_error_unable_display'] = 'Δεν είναι δυνατή η εμφάνιση των συνεδριάσεων. Παρακαλώ ελέγξτε τη διεύθυνση URL του διακομιστή BigBlueButton ΚΑΙ ελέγξτε για να δείτε αν ο διακομιστής BigBlueButton τρέχει.';
+$string['index_heading_actions'] = 'Ενέργειες';
 $string['index_heading_group'] = 'Ομάδα';
 $string['index_heading_moderator'] = 'Συντονιστές';
-$string['index_heading_name'] = 'Δωμάτιο';
+$string['index_heading_name'] = 'Αίθουσα';
 $string['index_heading_recording'] = 'Καταγραφή';
 $string['index_heading_users'] = 'Χρήστες';
-$string['index_heading_viewer'] = 'Οι θεατές';
-$string['index_heading'] = 'BigBlueButton Δωμάτια';
+$string['index_heading_viewer'] = 'Θεατές';
+$string['index_heading'] = 'Αίθουσες BigBlueButton';
 $string['mod_form_block_general'] = 'Γενικές Ρυθμίσεις';
-$string['mod_form_block_presentation'] = 'Παρουσίαση περιεχομένου';
+$string['mod_form_block_presentation'] = 'Περιεχόμενο παρουσίασης';
 $string['mod_form_block_participants'] = 'Συμμετέχοντες';
-$string['mod_form_block_schedule'] = 'Πρόγραμμα συνεδρίας';
-$string['mod_form_block_record'] = 'Ρυθμίσεις Εγγραφή';
+$string['mod_form_block_schedule'] = 'Πρόγραμμα για συνεδρία';
+$string['mod_form_block_record'] = 'Ρυθμίσεις Εγγραφής';
 $string['mod_form_field_openingtime'] = 'Εγγραφή ανοιχτή';
-$string['mod_form_field_closingtime'] = 'Εγγραφή κλειστά';
+$string['mod_form_field_closingtime'] = 'Εγγραφή κλειστή';
 $string['mod_form_field_intro'] = 'Περιγραφή';
-$string['mod_form_field_intro_help'] = 'Μια σύντομη περιγραφή για το δωμάτιο ή το συνέδριο.';
-$string['mod_form_field_duration_help'] = 'Ρύθμιση της διάρκειας για μια συνάντηση θα καθορίσει το μέγιστο χρόνο για μια συνάντηση για να κρατήσει ζωντανό πριν το τέλος εγγραφής';
+$string['mod_form_field_intro_help'] = 'Μια σύντομη περιγραφή για την αίθουσα ή τη διάσκεψη.';
+$string['mod_form_field_duration_help'] = 'Ρυθμίζοντας τη διάρκεια για μια συνάντηση θα καθοριστεί ο μέγιστος χρόνος για μια συνάντηση για να κρατηθεί ζωντανή πριν το τέλος της εγγραφής';
 $string['mod_form_field_duration'] = 'Διάρκεια';
-$string['mod_form_field_userlimit'] = 'Όριο χρηστών';
-$string['mod_form_field_userlimit_help'] = 'Ανώτατο όριο των χρηστών που επιτρέπεται σε μια συνάντηση. Αν το όριο έχει οριστεί σε 0, ο αριθμός των χρηστών θα είναι απεριόριστη.';
-$string['mod_form_field_name'] = 'Εικονική όνομα στην τάξη';
-$string['mod_form_field_room_name'] = 'Το όνομά Δωμάτιο';
-$string['mod_form_field_conference_name'] = 'Όνομα Συνεδριακού';
-$string['mod_form_field_newwindow'] = 'Άνοιγμα σε νέο παράθυρο';
-$string['mod_form_field_record'] = 'Συνεδρία μπορούν να καταγραφούν';
-$string['mod_form_field_voicebridge'] = 'Φωνή γέφυρα [####]';
-$string['mod_form_field_voicebridge_help'] = 'Φωνή αριθμό συνεδρίων που εισέρχονται συμμετέχοντες να προσχωρήσουν στη διάσκεψη φωνή όταν χρησιμοποιούν dial-in. Ένας αριθμός μεταξύ 1 και 9999 πρέπει να είναι δακτυλογραφημένες. Αν η τιμή είναι 0 το στατικό αριθμό voicebridge θα πρέπει να αγνοηθεί και ένας τυχαίος αριθμός θα παράγεται από BigBlueButton. Ένας αριθμός 7 θα preced στα τέσσερα ψηφία δακτυλογραφημένα';
+$string['mod_form_field_userlimit'] = 'Όριο χρήστη';
+$string['mod_form_field_userlimit_help'] = 'Ανώτατο όριο των χρηστών που επιτρέπονται σε μια συνάντηση. Αν το όριο έχει οριστεί σε 0, ο αριθμός των χρηστών θα είναι απεριόριστος.';
+$string['mod_form_field_name'] = 'Εικονικό όνομα τάξης';
+$string['mod_form_field_room_name'] = 'Όνομα αίθουσας';
+$string['mod_form_field_conference_name'] = 'Όνομα Συνεδρίου';
+$string['mod_form_field_newwindow'] = 'ʼνοιγμα σε νέο παράθυρο';
+$string['mod_form_field_record'] = 'Η συνεδρία μπορεί να καταγραφεί';
+$string['mod_form_field_voicebridge'] = 'Φωνητική γέφυρα [####]';
+$string['mod_form_field_voicebridge_help'] = 'Ο αριθμός φωνητικής διάσκεψης που εισάγουν οι συμμετέχοντες για να προσχωρήσουν στη φωνητική διάσκεψη όταν χρησιμοποιούν dial-in. Ένας αριθμός μεταξύ 1 και 9999 πρέπει να πληκτρολογηθεί. Αν η τιμή είναι 0 ο στατικός αριθμός φωνητικής γέφυρας θα πρέπει να αγνοηθεί και ένας τυχαίος αριθμός θα παραχθεί από BigBlueButton. Ένας αριθμός 7ψήφιος θα προηγείται των τεσσάρων πληκτρολογημένων ψηφίων';
 $string['mod_form_field_voicebridge_format_error'] = 'Λάθος μορφή. Θα πρέπει να εισάγετε έναν αριθμό μεταξύ 1 και 9999.';
-$string['mod_form_field_voicebridge_notunique_error'] = 'Δεν είναι μια μοναδική τιμή. Ο αριθμός αυτός χρησιμοποιείται από κάποιο άλλο δωμάτιο ή συνεδρίων.';
-$string['mod_form_field_recordingtagging'] = 'Ενεργοποίηση tagging διεπαφή';
-$string['mod_form_field_wait'] = 'Περιμένετε συντονιστής';
-$string['mod_form_field_wait_help'] = 'Οι θεατές πρέπει να περιμένει μέχρι να τεθεί συντονιστής της συνεδρίασης για να μπορέσουν να το πράξουν';
-$string['mod_form_field_welcome'] = 'Καλωσόρισμα';
-$string['mod_form_field_welcome_help'] = 'Αντικαθιστά το προεπιλεγμένο μήνυμα setted για το διακομιστή BigBlueButton. Το μήνυμα μπορεί να περιλαμβάνει τις λέξεις-κλειδιά (%% %% CONFNAME, %% %% DIALNUM, %% %% CONFNUM), η οποία θα αντικαταστήσει αυτόματα, καθώς επίσης και ετικέτες HTML, όπως <b> ... </ b> ή <i> < / i>';
-$string['mod_form_field_welcome_default'] = '<br> Καλώς ήρθατε στην <b> %% %% CONFNAME </ b>! <br> Η Για να καταλάβουμε πώς λειτουργεί BigBlueButton δείτε μας <a href';
+$string['mod_form_field_voicebridge_notunique_error'] = 'Δεν είναι μια μοναδική τιμή. Ο αριθμός αυτός χρησιμοποιείται από κάποια άλλη αίθουσα  ή διάσκεψη.';
+$string['mod_form_field_recordingtagging'] = 'Ενεργοποίηση tagging διεπαφής';
+$string['mod_form_field_wait'] = 'Περιμένετε τον συντονιστή';
+$string['mod_form_field_wait_help'] = 'Οι θεατές πρέπει να περιμένουν μέχρι ένας συντονιστής να εισέλθει στην συνεδρίαση προτού μπορέσουν να πράξουν το ίδιο';
+$string['mod_form_field_welcome'] = 'Μήνυμα υποδοχής';
+$string['mod_form_field_welcome_help'] = 'Αντικαθιστά το προεπιλεγμένο μήνυμα που έχει διαμορφωθεί για το διακομιστή BigBlueButton. Το μήνυμα μπορεί να περιλαμβάνει λέξεις-κλειδιά (%%CONFNAME%%, %%DIALNUM%%, %%CONFNUM%%), οι οποίες θα αντικατασταθούν αυτόματα, καθώς επίσης και οι ετικέτες html, όπως  <b>...</b> or <i></i>';
+$string['mod_form_field_welcome_default'] = '<br> Καλώς ήρθατε στο  <b>%%CONFNAME%%</b>!<br><br>Για να κατανοήσετε πώς λειτουργεί το BigBlueButton δείτε το <a href μας';
 $string['mod_form_field_participant_add'] = 'Προσθήκη συμμετέχοντα';
-$string['mod_form_field_participant_list'] = 'Κατάλογο συμμετεχόντων';
-$string['mod_form_field_participant_list_type_all'] = 'Όλοι οι χρήστες που εγγράφονται';
+$string['mod_form_field_participant_list'] = 'Κατάλογος συμμετεχόντων';
+$string['mod_form_field_participant_list_type_all'] = 'Όλοι οι εγγεγραμμένοι χρήστες';
 $string['mod_form_field_participant_list_type_role'] = 'Ρόλος';
 $string['mod_form_field_participant_list_type_user'] = 'Χρήστης';
 $string['mod_form_field_participant_list_type_owner'] = 'Ιδιοκτήτης';
@@ -175,107 +143,97 @@ $string['mod_form_field_participant_list_action_add'] = 'Προσθήκη';
 $string['mod_form_field_participant_list_action_remove'] = 'Κατάργηση';
 $string['mod_form_field_participant_bbb_role_moderator'] = 'Συντονιστής';
 $string['mod_form_field_participant_bbb_role_viewer'] = 'Θεατής';
-$string['mod_form_field_predefinedprofile'] = 'Προκαθορισμένες προφίλ';
-$string['mod_form_field_predefinedprofile_help'] = 'Προκαθορισμένες προφίλ';
+$string['mod_form_field_predefinedprofile'] = 'Προκαθορισμένο προφίλ';
+$string['mod_form_field_predefinedprofile_help'] = 'Προκαθορισμένο προφίλ';
 $string['mod_form_field_notification'] = 'Αποστολή ειδοποίησης';
-$string['mod_form_field_notification_help'] = 'Αποστολή ειδοποίησης σε χρήστες που εγγράφονται για να τους ενημερώσει ότι η δραστηριότητα αυτή έχει δημιουργηθεί ή τροποποιηθεί';
+$string['mod_form_field_notification_help'] = 'Αποστολή ειδοποίησης σε χρήστες που εγγράφονται για να τους ενημερώσει ότι η δραστηριότητα αυτή έχει δημιουργηθεί ή έχει τροποποιηθεί';
 $string['mod_form_field_notification_created_help'] = 'Αποστολή ειδοποίησης σε χρήστες που εγγράφονται για να τους ενημερώσει ότι η δραστηριότητα αυτή έχει δημιουργηθεί';
 $string['mod_form_field_notification_modified_help'] = 'Αποστολή ειδοποίησης σε χρήστες που εγγράφονται για να τους ενημερώσει ότι η δραστηριότητα αυτή έχει τροποποιηθεί';
 $string['mod_form_field_notification_msg_created'] = 'δημιουργήθηκε';
-$string['mod_form_field_notification_msg_modified'] = 'τροποποιημένο';
-
+$string['mod_form_field_notification_msg_modified'] = 'τροποποιήθηκε';
 
 $string['modulename'] = 'BigBlueButtonBN';
 $string['modulenameplural'] = 'BigBlueButtonBN';
-$string['modulename_help'] = 'BigBlueButtonBN σας επιτρέπει να δημιουργήσετε μέσα από το Moodle συνδέσμους σε πραγματικό χρόνο on-line αίθουσες διδασκαλίας με τη χρήση BigBlueButton, ένα σύστημα το web conferencing ανοικτού κώδικα για την εξ αποστάσεως εκπαίδευση.';
-
-$string['Using BigBlueButtonBN you can specify for the title, description, calendar entry (which gives a date range for joining the session), groups, and details about the recording of the on-line session.'] = '';
-
-$string['To view later recordings, add a RecordingsBN resource to this course.'] = '';
+$string['modulename_help'] ; 'BigBlueButtonBN σας επιτρέπει να δημιουργήσετε μέσα από τους Moodle συνδέσμους σε πραγματικό χρόνο on-line αίθουσες διδασκαλίας χρησιμοποιώντας BigBlueButton, ένα σύστημα ανοικτού κώδικα διαδικτιακής διάσκεψης για την εξ αποστάσεως εκπαίδευση.
+Χρησιμοποιώντας BigBlueButtonBN μπορείτε να προσδιορίσετε για τον τίτλο, περιγραφή, καταχώρηση ημερολογίου (η οποία δίνει ένα εύρος ημερομηνίας για την ένταξη της συνόδου), ομάδες, καθώς και λεπτομέρειες σχετικά με την καταγραφή της on-line συνόδου.
+Για να δείτε μετέπειτα εγγραφές, προσθέστε μια πηγή RecordingsBN σε αυτό το μάθημα.';
 $string['modulename_link'] = 'BigBlueButtonBN / προβολή';
 $string['pluginadministration'] = 'Διοίκηση BigBlueButton';
 $string['pluginname'] = 'BigBlueButtonBN';
 $string['serverhost'] = 'Όνομα διακομιστή';
-$string['view_error_no_group_student'] = 'Δεν έχουν εγγραφεί σε μια ομάδα. Παρακαλούμε επικοινωνήστε Δάσκαλος σας ή το διαχειριστή.';
-$string['view_error_no_group_teacher'] = 'Δεν υπάρχουν ομάδες ρυθμιστεί ακόμη. Παρακαλούμε να συγκροτεί ομάδες ή επικοινωνήστε με τον διαχειριστή.';
-$string['view_error_no_group'] = 'Δεν υπάρχουν ομάδες ρυθμιστεί ακόμη. Παρακαλούμε να συγκροτεί ομάδες πριν προσπαθήσετε να συμμετάσχουν στη σύσκεψη.';
-$string['view_error_unable_join_student'] = 'Δεν είναι δυνατή η σύνδεση με το διακομιστή BigBlueButton. Παρακαλούμε επικοινωνήστε Δάσκαλος σας ή το διαχειριστή.';
-$string['view_error_unable_join_teacher'] = 'Δεν είναι δυνατή η σύνδεση με το διακομιστή BigBlueButton. Παρακαλώ επικοινωνήστε με τον διαχειριστή.';
-$string['view_error_unable_join'] = 'Δεν είναι δυνατή η συμμετοχή στη σύσκεψη. Παρακαλώ ελέγξτε τη διεύθυνση URL του διακομιστή BigBlueButton και ελέγξτε για να δείτε αν ο διακομιστής BigBlueButton τρέχει.';
+$string['view_error_no_group_student'] = 'Δεν έχετε εγγραφεί σε μια ομάδα. Παρακαλούμε επικοινωνήστε με τον Δάσκαλος σας ή το Διαχειριστή.';
+$string['view_error_no_group_teacher'] = 'Δεν έχουν διαμορφωθεί ακόμα οι ομάδες. Παρακαλούμε ορίσετε ομάδες ή επικοινωνήστε με τον Διαχειριστή.';
+$string['view_error_no_group'] = 'Δεν έχουν διαμορφωθεί ακόμα οι ομάδες. Παρακαλούμε ορίσετε ομάδες πριν προσπαθήσετε να συμμετάσχετε στη σύσκεψη.';
+$string['view_error_unable_join_student'] = 'Δεν είναι δυνατή η σύνδεση με το διακομιστή BigBlueButton. Παρακαλούμε επικοινωνήστε με τον Δάσκαλος σας ή το Διαχειριστή.';
+$string['view_error_unable_join_teacher'] = 'Δεν είναι δυνατή η σύνδεση με το διακομιστή BigBlueButton. Παρακαλώ επικοινωνήστε με τον Διαχειριστή.';
+$string['view_error_unable_join'] = 'Δεν είναι δυνατή η συμμετοχή στη σύσκεψη. Παρακαλώ ελέγξτε τη διεύθυνση url του διακομιστή BigBlueButton ΚΑΙ ελέγξτε να δείτε αν ο διακομιστής BigBlueButton τρέχει.';
 $string['view_error_create'] = 'Ο διακομιστής BigBlueButton απάντησε με ένα μήνυμα σφάλματος, δεν θα μπορούσε να δημιουργηθεί η συνεδρίαση.';
-$string['view_error_max_concurrent'] = 'Αριθμός ταυτόχρονων συνεδριάσεις επέτρεψαν έχει επιτευχθεί.';
-$string['view_error_userlimit_reached'] = 'Έχει φτάσει ο αριθμός των χρηστών που επιτρέπεται σε μια συνάντηση.';
+$string['view_error_max_concurrent'] = 'Ο αριθμός ταυτόχρονων επιτρεπόμενων συνεδριάσειων έχει επιτευχθεί.';
+$string['view_error_userlimit_reached'] = 'Ο αριθμός των χρηστών που επιτρέπεται σε μια συνάντηση έχει επιτευχθεί .';
 $string['view_groups_selection_join'] = 'Εγγραφή';
-$string['view_groups_selection'] = 'Επιλέξτε την ομάδα που θέλετε να συμμετάσχετε και να επιβεβαιώσετε την ενέργεια';
+$string['view_groups_selection'] = 'Επιλέξτε την ομάδα που θέλετε να συμμετάσχετε και επιβεβαιώσετε την ενέργεια';
 $string['view_login_moderator'] = 'Σύνδεση ως συντονιστής ...';
 $string['view_login_viewer'] = 'Σύνδεση ως θεατής ...';
-$string['view_noguests'] = 'Η BigBlueButtonBN δεν είναι ανοιχτό για τους επισκέπτες';
-$string['view_nojoin'] = 'Δεν είστε σε έναν ρόλο επιτρέπεται να συμμετάσχετε σε αυτήν την περίοδο λειτουργίας.';
+$string['view_noguests'] = 'BigBlueButtonBN δεν είναι ανοιχτό για τους επισκέπτες';
+$string['view_nojoin'] = 'Δεν είστε σε έναν ρόλο που επιτρέπεται να συμμετάσχετε σε αυτήν την συνεδρία.';
 $string['view_recording_list_actionbar_delete'] = 'Διαγραφή';
-$string['view_recording_list_actionbar_deleting'] = 'Διαγραφή';
+$string['view_recording_list_actionbar_deleting'] = 'Διαγράφοντας';
 $string['view_recording_list_actionbar_hide'] = 'Απόκρυψη';
 $string['view_recording_list_actionbar_show'] = 'προβολή';
 $string['view_recording_list_actionbar_publish'] = 'Δημοσιεύστε';
 $string['view_recording_list_actionbar_unpublish'] = 'Κατάργηση δημοσίευσης';
-$string['view_recording_list_actionbar_publishing'] = 'Εκδόσεις';
-$string['view_recording_list_actionbar_unpublishing'] = 'Κατάργηση δημοσίευσης';
+$string['view_recording_list_actionbar_publishing'] = 'Δημοσιεύοντας';
+$string['view_recording_list_actionbar_unpublishing'] = 'Καταργώντας δημοσίευση';
 $string['view_recording_list_actionbar_processing'] = 'Επεξεργασία';
-$string['view_recording_list_actionbar'] = 'ΓΡΑΜΜΗ ΕΡΓΑΛΕΙΩΝ';
+$string['view_recording_list_actionbar'] = 'Γραμμή εργαλείων';
 $string['view_recording_list_activity'] = 'Δραστηριότητα';
-$string['view_recording_list_course'] = 'Σειρά μαθημάτων';
+$string['view_recording_list_course'] = 'Μάθημα';
 $string['view_recording_list_date'] = 'Ημερομηνία';
 $string['view_recording_list_description'] = 'Περιγραφή';
 $string['view_recording_list_duration'] = 'Διάρκεια';
 $string['view_recording_list_recording'] = 'Καταγραφή';
-$string['view_wait'] = 'Η εικονική τάξη δεν έχει ακόμα αρχίσει. Αναμονή μέχρι την ένταξη συντονιστής ...';
-$string['view_section_title_presentation'] = 'Παρουσίαση αρχείο';
-$string['view_section_title_recordings'] = 'Ηχογραφήσεις';
+$string['view_wait'] = 'Η εικονική τάξη δεν έχει ακόμα αρχίσει. Αναμονή μέχρι την ένταξη ενός συντονιστή ...';
+$string['view_section_title_presentation'] = 'Παρουσίαση αρχείου';
+$string['view_section_title_recordings'] = 'Εγγραφές';
 $string['view_message_norecordings'] = 'Δεν υπάρχει εγγραφή για αυτή τη συνάντηση.';
-$string['view_message_finished'] = 'Αυτή η δραστηριότητα είναι πάνω.';
-$string['view_message_notavailableyet'] = 'Αυτή η σύνοδος δεν είναι ακόμη διαθέσιμα.';
-
+$string['view_message_finished'] = 'Αυτή η δραστηριότητα έχει τελειώσει.';
+$string['view_message_notavailableyet'] = 'Αυτή η συνεδρία δεν είναι ακόμη διαθέσιμη.';
 $string['view_message_session_started_at'] = 'Αυτή η συνεδρία άρχισε στις';
-$string['view_message_session_running_for'] = 'Αυτή η σύνοδος έχει τρέξει για';
+$string['view_message_session_running_for'] = 'Αυτή η συνεδρία έχει τρέξει για';
 $string['view_message_hour'] = 'ώρα';
 $string['view_message_hours'] = 'ώρες';
 $string['view_message_minute'] = 'λεπτό';
 $string['view_message_minutes'] = 'λεπτά';
-$string['view_message_moderator'] = 'μεσολαβητής';
+$string['view_message_moderator'] = 'συντονιστής';
 $string['view_message_moderators'] = 'συντονιστές';
 $string['view_message_viewer'] = 'θεατής';
 $string['view_message_viewers'] = 'θεατές';
 $string['view_message_user'] = 'χρήστης';
 $string['view_message_users'] = 'χρήστες';
 $string['view_message_has_joined'] = 'έχει ενταχθεί';
-$string['view_message_have_joined'] = 'ένωσαν';
-$string['view_message_session_no_users'] = 'Δεν υπάρχουν χρήστες σε αυτή τη σύνοδο';
+$string['view_message_have_joined'] = 'έχουν ενταχθεί';
+$string['view_message_session_no_users'] = 'Δεν υπάρχουν χρήστες σε αυτή τη συνεδρία';
 $string['view_message_session_has_user'] = 'Υπάρχει';
 $string['view_message_session_has_users'] = 'Υπάρχουν';
-
-
-$string['view_message_room_closed'] = 'Αυτό το δωμάτιο είναι κλειστό.';
-$string['view_message_room_ready'] = 'Αυτό το δωμάτιο είναι έτοιμο.';
-$string['view_message_room_open'] = 'Αυτό το δωμάτιο είναι ανοιχτό.';
-$string['view_message_conference_room_ready'] = 'Αυτή η αίθουσα είναι έτοιμο. Μπορείτε να συμμετάσχετε στην περίοδο τώρα.';
+$string['view_message_room_closed'] = 'Αυτή η αίθουσα είναι κλειστή.';
+$string['view_message_room_ready'] = 'Αυτή η αίθουσα είναι έτοιμη.';
+$string['view_message_room_open'] = 'Αυτή η αίθουσα είναι ανοιχτή.';
+$string['view_message_conference_room_ready'] = 'Αυτή η αίθουσα συνεδρίων είναι έτοιμη. Μπορείτε να συμμετάσχετε στην συνεδρία τώρα.';
 $string['view_message_conference_not_started'] = 'Αυτή η διάσκεψη δεν έχει ακόμη αρχίσει.';
-$string['view_message_conference_wait_for_moderator'] = 'Αναμονή για συντονιστής να ενταχθούν.';
+$string['view_message_conference_wait_for_moderator'] = 'Αναμονή για να ενταχθεί ένας συντονιστής.';
 $string['view_message_conference_in_progress'] = 'Η διάσκεψη αυτή βρίσκεται σε εξέλιξη.';
-$string['view_message_conference_has_ended'] = 'Το συνέδριο αυτό έχει λήξει.';
+$string['view_message_conference_has_ended'] = 'Η διάσκεψη αυτή έχει λήξει.';
 $string['view_message_tab_close'] = 'Αυτή η καρτέλα / παράθυρο θα πρέπει να κλείσει χειροκίνητα';
-
-
-$string['view_groups_selection_warning'] = 'Υπάρχει μια αίθουσα συνεδριάσεων για κάθε ομάδα και έχετε πρόσβαση σε περισσότερα από ένα. Να είστε βέβαιος να επιλέξει το σωστό.';
-$string['//view_groups_selection_message'] = 'Επιλέξτε την ομάδα που θέλετε να συμμετάσχουν.';
+$string['view_groups_selection_warning'] = 'Υπάρχει μια αίθουσα συνεδριάσεων για κάθε ομάδα και έχετε πρόσβαση σε περισσότερες από μία. Να είστε βέβαιος να επιλέξετε το σωστό.';
+$string['//view_groups_selection_message'] = 'Επιλέξτε την ομάδα που θέλετε να συμμετάσχει.';
 $string['//view_groups_selection_button'] = 'Επιλέξτε';
-$string['view_conference_action_join'] = 'Εγγραφή συνεδρία';
-$string['view_conference_action_end'] = 'Λήξη περιόδου';
-$string['view_conference_action_lineup'] = 'Line up για την ένταξη συνόδου';
-
-
-$string['view_recording_delete_confirmation'] = '"Είστε σίγουροι ότι για να διαγράψετε αυτή την ηχογράφηση;"';
-$string['view_recording_actionbar'] = 'ΓΡΑΜΜΗ ΕΡΓΑΛΕΙΩΝ';
+$string['view_conference_action_join'] = 'Εγγραφείτε στη συνεδρία';
+$string['view_conference_action_end'] = 'Λήξη συνεδρίας';
+$string['view_conference_action_lineup'] = 'Πάρτε σειρά για να εγγραφείτε στην συνεδρία';
+$string['view_recording_delete_confirmation'] = 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την εγγραφή;';
+$string['view_recording_actionbar'] = 'Γραμμή εργαλείων';
 $string['view_recording_activity'] = 'Δραστηριότητα';
-$string['view_recording_course'] = 'Σειρά μαθημάτων';
+$string['view_recording_course'] = 'Μάθημα';
 $string['view_recording_date'] = 'Ημερομηνία';
 $string['view_recording_description'] = 'Περιγραφή';
 $string['view_recording_length'] = 'Μήκος';
@@ -286,27 +244,23 @@ $string['view_recording_name'] = 'Όνομα';
 $string['view_recording_tags'] = 'Ετικέτες';
 $string['view_recording_modal_button'] = 'Εφαρμογή';
 $string['view_recording_modal_title'] = 'Ρύθμιση τιμών για την εγγραφή';
-
 $string['event_activity_created'] = 'Δραστηριότητα BigBlueButtonBN δημιουργήθηκε';
-$string['event_activity_viewed'] = 'Δραστηριότητα BigBlueButtonBN εμφανίσεις';
-$string['event_activity_viewed_all'] = 'Διαχείριση δραστηριότητας BigBlueButtonBN είδαν';
-$string['event_activity_modified'] = 'Δραστηριότητα BigBlueButtonBN τροποποιημένο';
+$string['event_activity_viewed'] = 'Δραστηριότητα BigBlueButtonBN εμφανίστηκε';
+$string['event_activity_viewed_all'] = 'Η Διαχείριση δραστηριότητας BigBlueButtonBN εμφανίστηκε';
+$string['event_activity_modified'] = 'Δραστηριότητα BigBlueButtonBN τροποποιήθηκε';
 $string['event_activity_deleted'] = 'Δραστηριότητα BigBlueButtonBN διαγράφεται';
-$string['event_meeting_created'] = 'BigBlueButtonBN συνάντηση που δημιουργούνται';
-$string['event_meeting_joined'] = 'BigBlueButtonBN συνάντηση εντάχθηκε';
-$string['event_meeting_left'] = 'BigBlueButtonBN συνάντηση αριστερά';
-$string['event_meeting_ended'] = 'BigBlueButtonBN συνάντηση έληξε με τη βία';
-$string['event_recording_published'] = 'Καταγραφή δημοσιεύονται';
-$string['event_recording_unpublished'] = 'Εγγραφή αδημοσίευτα';
-$string['event_recording_deleted'] = 'Καταγραφή διαγράφεται';
-
+$string['event_meeting_created'] = 'Συνάντηση BigBlueButtonBN  δημιουργήθηκε';
+$string['event_meeting_joined'] = 'Συνάντηση BigBlueButtonBN εντάχθηκε';
+$string['event_meeting_left'] = 'Συνάντηση BigBlueButtonBN αριστερά';
+$string['event_meeting_ended'] = 'Συνάντηση BigBlueButtonBN έληξε με τη βία';
+$string['event_recording_published'] = 'Δημοσιευμένη εγγραφή';
+$string['event_recording_unpublished'] = 'Εγγραφή αδημοσίευτη';
+$string['event_recording_deleted'] = 'Διαγραφή εγγραφής';
 $string['predefined_profile_default'] = 'Προεπιλογή';
 $string['predefined_profile_classroom'] = 'Αίθουσα διδασκαλίας';
 $string['predefined_profile_conferenceroom'] = 'Αίθουσα συνεδριάσεων';
-$string['predefined_profile_collaborationroom'] = 'Συνεργασία δωμάτιο';
-$string['predefined_profile_scheduledsession'] = 'Προγραμματισμένες συνεδρία';
-
-
+$string['predefined_profile_collaborationroom'] = 'Αίθουσα συνεργασίας';
+$string['predefined_profile_scheduledsession'] = 'Προγραμματισμένες συνεδρίες';
 $string['email_title_notification_has_been'] = 'υπήρξε';
 $string['email_body_notification_meeting_has_been'] = 'υπήρξε';
 $string['email_body_notification_meeting_details'] = 'Λεπτομέρειες';
@@ -318,4 +272,4 @@ $string['email_body_notification_meeting_by'] = 'με';
 $string['email_body_recording_ready_for'] = 'Εγγραφή για';
 $string['email_body_recording_ready_is_ready'] = 'είναι έτοιμο';
 $string['email_footer_sent_by'] = 'Αυτό το αυτόματο μήνυμα ειδοποίησης στάλθηκε από';
-$string['email_footer_sent_from'] = 'από την πορεία';
+$string['email_footer_sent_from'] = 'από το μάθημα';
